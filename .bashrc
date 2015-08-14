@@ -31,6 +31,8 @@ export CLICOLOR=1
 export LSCOLORS=aGFHCHDHCHHgedabagaced
 
 #### Aliases
-
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 alias gc='git commit $1'
 alias ga='git add -A .'
