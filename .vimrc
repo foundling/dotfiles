@@ -1,7 +1,9 @@
+execute pathogen#infect()
+inoremap jk <ESC> 
+inoremap <CTRL>ZZ :wq
 syntax on
-inoremap jk <ESC>
+colorscheme molokai
+let JSHintUpdateWriteOnly=1
 filetype indent plugin on
-
 set tabstop=4 expandtab shiftwidth=4 softtabstop=4
-colorscheme darkblue
-set background=dark
+set laststatus=2
