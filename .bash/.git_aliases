@@ -1,0 +1,8 @@
+alias gc='git commit -m $1'
+alias ga="git add $1"
+alias gl="git log --name-only"
+alias gb="git branch"
+alias gs="git status"
+alias gr="git remote -v"
+alias gu="git update-index --assume-unchanged $1" # untrack staged file, aka git untrack 
+alias gcatch='cd ~/SyrinxDesktop; for f in "$(git diff --name-only --relative)"; do git add $f; done; cd -'
