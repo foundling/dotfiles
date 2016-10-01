@@ -1,0 +1,4 @@
+alias pbcss="cd /data/python/python_book/static/css && ls"
+alias pbstatic="cd /data/python/python_book/static && ls"
+alias pbt="cd /data/python/python_book/templates && ls"
+alias pbch="cd /data/python/python_book/templates/chapters && ls"

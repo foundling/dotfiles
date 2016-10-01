@@ -1,10 +1,10 @@
-alias xgrep="grep -r . -e $1" 
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
 
-source ~/.bash/.syrinx_aliases
+source ~/.bash/.shell_aliases
 source ~/.bash/.app_aliases
 source ~/.bash/.git_aliases
-source ~/.bash/.terminal_customizations
+source ~/.bash/.prompt_customizations
 source ~/.bash/.language_exports
+source ~/.bash/.python_book_aliases
+source ~/.bash/.remote
