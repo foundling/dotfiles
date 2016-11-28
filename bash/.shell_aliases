@@ -1,8 +1,0 @@
-alias rgrep="grep -r . -e $1" 
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
-alias ls='ls -l'
-alias disk="df -hl"
-
-

@@ -1,6 +1,6 @@
-execute pathogen#infect('bundle/*')
-filetype indent plugin on
+execute pathogen#infect()
 syntax on
+filetype plugin indent on
 
 au BufNewFile,BufRead *.stache   set syntax=html
 autocmd BufNewFile,BufRead *.vue set filetype=html
@@ -25,4 +25,5 @@ set statusline=%t\ line:[%l]
 set laststatus=2
 
 inoremap ZZ wq
-inoremap jk <ESC>
+inoremap fj <ESC>
+"vnoremap . :normal .<CR>
