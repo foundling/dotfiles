@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/data/apps/no-task/src/components'
-let g:netrw_dirhist_2='/data/apps/fbtrack/node_modules'
-let g:netrw_dirhist_3='/data/apps/fbtrack/cli'
-let g:netrw_dirhist_4='/data/apps/fbtrack/bin'
-let g:netrw_dirhist_5='/data/apps/fbtrack/app/cli'
-let g:netrw_dirhist_6='/data/apps/fbtrack/data'
-let g:netrw_dirhist_7='/data/apps/fbtrack/app/cron'
