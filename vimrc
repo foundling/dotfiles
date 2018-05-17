@@ -11,6 +11,9 @@ set showmode
 set background=dark
 colorscheme PaperColor
 
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
 "Nerd tree
 "autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
